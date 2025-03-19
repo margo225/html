@@ -1,0 +1,179 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.fullscreen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    background: Grey;
+    box-sizing: border-box;
+    font-family: "Pangolin", cursive;
+    font-size: 30px;
+}
+
+header {
+    background: url('maxresdefault.jpg') no-repeat center center/cover;
+
+    color: rgb(255, 254, 170);
+    font-family: "Pangolin", cursive;
+    font-size: 30px;
+}
+/* Псевдоэлемент для затемнения */
+header::before {
+    content: ''; /* Обязательное свойство для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(228, 61, 250, 0.322); /* Чёрный цвет с прозрачностью 50% */
+    z-index: 1; /* Убедитесь, что слой поверх фона */
+}
+
+.hero {
+    position: relative; /* Относительное позиционирование */
+    z-index: 2; /* Контент поверх затемнения */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: White;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background: Black;
+    color: White;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.destinations-grid, .reviews-grid, .gallery-grid, .faq-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination, .review, .faq-item {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #f20bfa57;
+    border-radius: 10px;
+}
+
+.gallery-grid img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* Стили для секции */
+.destinations-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: Grey;
+}
+
+/* Стили для карусели */
+.carousel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+/* Стили для карточек */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background:#830388;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+
+/* Кнопки управления каруселью */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
