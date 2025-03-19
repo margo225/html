@@ -1,0 +1,133 @@
+img {
+    max-width: 100%;
+    display: block;
+
+    margin-left: 20%;
+}
+
+.start img {
+    max-width: 40%;
+    display: block;
+    margin-left: 29%;
+}
+
+#main{
+    margin-left: 0px;
+}
+
+#picbar {
+    width: 400px;
+    float: left;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0px;
+}
+
+body {
+    background-color: rgb(34, 24, 65);
+}
+
+
+
+h3, p {
+    margin-left: 40%;
+    margin-right: 7%;
+    font-family: "Gabriela", serif;
+  
+}
+
+.end img{
+    margin-top: 150px;
+    margin-right: 300px;
+    
+    
+
+}
+
+.image-card img {
+    float: left;
+    border: 8px solid #ffffff;
+    margin-left: 20px;
+    float: left;
+    border-radius: 8px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.topnav {
+    background-color: #8a62f77c;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    width: 90%;
+    border-radius: 30px; /* Скругление углов */
+}
+.topnav a {
+    font-family: "Gabriela", serif;
+    margin-left: 10%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    border-radius: 30px;
+    background-color: #f4f4ae;
+    color: rgb(47, 0, 117);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    border-radius: 30px; /* Скругление углов */
+    background-color: #fbe598d0;
+    color: rgb(21, 21, 21);
+}
+
+.info-banner {
+    background-color:#fbe598d0; /* Цвет фона */
+    color: rgb(5, 5, 5); /* Цвет текста */
+    padding: 40px; /* Отступы внутри плашки */
+    margin: 20px 0; /* Отступы снаружи плашки */
+    border-radius: 30px; /* Скругление углов */
+    max-width: 80%; /* Максимальная ширина плашки */
+    margin-left: auto;
+    /*margin-top: 300px;*/
+    margin-right: auto; /* Центрирование плашки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень для эффекта */
+}
+
+.info-banner h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+    font-size: 28px; /* Размер заголовка */
+}
+
+.info-banner p {
+    font-size: 16px; /* Размер текста */
+    line-height: 1.5; /* Межстрочный интервал */
+}
+
+
+h1 {
+    font-family: "Gabriela", serif;
+    font-size: 54px;
+    text-align: center;
+  }
+
+h2 {
+    margin-left: 40%;
+    margin-bottom: 20px;
+    font-family: "Gabriela", serif;
+    font-size: 60px;
+    text-align: center;
+  }
+
+ol, ul {
+    margin-left: 40%;
+    font-family: "Gabriela", serif;
+}
