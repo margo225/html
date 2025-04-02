@@ -1,15 +1,9 @@
 img {
     max-width: 100%;
     display: block;
-
     margin-left: 20%;
 }
 
-.start img {
-    max-width: 40%;
-    display: block;
-    margin-left: 29%;
-}
 
 #main{
     margin-left: 0px;
@@ -26,7 +20,7 @@ img {
 }
 
 body {
-    background-color: rgb(34, 24, 65);
+    background-color: #c9422b;
 }
 
 
@@ -36,14 +30,6 @@ h3, p {
     margin-right: 7%;
     font-family: "Gabriela", serif;
   
-}
-
-.end img{
-    margin-top: 150px;
-    margin-right: 300px;
-    
-    
-
 }
 
 .image-card img {
@@ -57,7 +43,7 @@ h3, p {
 }
 
 .topnav {
-    background-color: #8a62f77c;
+    background-color: #e9820c;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -75,14 +61,14 @@ h3, p {
     text-decoration: none;
     font-size: 17px;
 }
-/* Change the color of links on hover */
+/* Измените цвет ссылок при наведении курсора мыши */
 .topnav a:hover {
     border-radius: 30px;
     background-color: #f4f4ae;
     color: rgb(47, 0, 117);
 }
 
-/* Add a color to the active/current link */
+/* Добавьте цвет к активной/текущей ссылке */
 .topnav a.active {
     border-radius: 30px; /* Скругление углов */
     background-color: #fbe598d0;
@@ -90,7 +76,7 @@ h3, p {
 }
 
 .info-banner {
-    background-color:#fbe598d0; /* Цвет фона */
+    background-color: #fbe598d0; /* Цвет фона */
     color: rgb(5, 5, 5); /* Цвет текста */
     padding: 40px; /* Отступы внутри плашки */
     margin: 20px 0; /* Отступы снаружи плашки */
@@ -110,6 +96,7 @@ h3, p {
 .info-banner p {
     font-size: 16px; /* Размер текста */
     line-height: 1.5; /* Межстрочный интервал */
+    text-align: justify;
 }
 
 
